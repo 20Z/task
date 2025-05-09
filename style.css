@@ -145,7 +145,48 @@ header {
     object-fit: contain;
   }
   
+/* iPhone XR */
+@media (max-width: 414px) {
+    .hero {
+      flex-direction: column;
+      padding: 5% 3%;
+      text-align: center;
+    }
+  
+    .hero-text,
+    .hero-image {
+      width: 100%;
+    }
+  
+    .hero-text h1 {
+      font-size: 160%;
+    }
+  
+    .hero-text p {
+      font-size: 95%;
+    }
+  
+    .hero-btn {
+      font-size: 95%;
+    }
+  }
+  
+  /* iPad Pro */
+  @media (max-width: 1024px) {
+    .hero {
+      padding: 3%;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero-text,
+    .hero-image {
+        padding: 3%;
 
+      width: 100%;
+    }
+  }
+  
 
 
 
